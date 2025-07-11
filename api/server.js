@@ -21,5 +21,5 @@ mongoose
   });
 
 app.use("/api/users", userRouter);
-
 export const handler = serverless(app);
+export default app; // 👈 add this too
